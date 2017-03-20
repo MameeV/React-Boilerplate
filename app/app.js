@@ -13,10 +13,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { applyRouterMiddleware, Router, browserHistory } from 'react-router';
 import { useScroll } from 'react-router-scroll';
-import 'sanitize.css/sanitize.css';
-
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
+
+import 'sanitize.css/sanitize.css';
 
 // Import root app
 import App from 'containers/App';
@@ -33,11 +33,10 @@ import './global-styles';
 // Import root routes
 import createRoutes from './routes';
 
-
 // Set up the router, wrapping all Routes in the App component
 const rootRoute = {
   component: App,
-  childRoutes: createRoutes(),
+  childRoutes: createRoutes()
 };
 
 const render = () => {

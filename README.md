@@ -1,6 +1,8 @@
 ##Minimalistic React Boilerplate
 
-Based on React-Boilerplate by mxstbr, I removed most of the unnecessary react packages and functions which a beginner wouldn't use, making it far more user friendly for a new Web Developer to get started.
-To get started, simply git clone this repo and run `npm install`
+A highly scale-able boilerplate for JavaScript and ReactJS.
 
-This boilerplate is highly scalable. 
+Boilerplate is component based and includes react-router, react-responsive, and material-ui.
+
+###License
+MIT
