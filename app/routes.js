@@ -9,7 +9,7 @@ const loadModule = (comMod) => (componentModule) => {
 export default function createRoutes() {
 
   return [
-    {
+      {
        path: '/',
        name: 'home',
        getComponent(nextState, comMod) {
